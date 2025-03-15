@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "commit": "git add . && cz"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +22,10 @@
     "@types/node": "22.13.10",
     "@types/react": "19.0.10",
     "typescript": "5.8.2"
-  }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }  
 }

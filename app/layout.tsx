@@ -5,7 +5,9 @@ export default function RootLayout({ children }: {
   }) {
     return (
       <html lang="pt-br">
-        <body className="root">{ children }</body>
+        <body className="root">
+          <section className='main'>{ children }</section>
+        </body>
       </html>
     )
   }

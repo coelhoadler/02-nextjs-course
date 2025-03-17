@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 export default function Random() {
     
@@ -6,6 +7,9 @@ export default function Random() {
     // console.log('>>> router', router);
     
     return (
-        <div>ID atual: { router.query.id }</div>
+        <>
+            <div>ID atual: { router.query.id }</div>
+            <p><Link href='/'>voltar para o início</Link></p>
+        </>
     )
 }

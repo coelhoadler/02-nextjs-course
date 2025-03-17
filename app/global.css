@@ -1,11 +1,51 @@
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 20px 60px;
-    max-width: 680px;
-    margin: 0 auto;
+@import url('variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+  
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.root {
+  min-height: 95vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 95%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .title {
+    color: var(--title-color);
   }
 
-  img { 
-    max-width: 100%;
-    max-height: 500px;
+  .avatar {
+    height: var(--avatar-size);
+    width: var(--avatar-size);
+    border: 3px double var(--primary-color);
+    border-radius: 50%;
+    background-image: url('/images/eu_mari_e_tom.jpg');
+    background-size: cover;
+    background-position: center;
   }
+}
+
+.about-me {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: var(--text-color);
+}

@@ -1,0 +1,11 @@
+:root {
+    --font-family: "Barriecito", system-ui;
+    --avatar-size: 128px;
+
+    --title-color: #61210F;
+    --text-color: #61210F;
+    --background-color: #F9EDCC;
+    --primary-color: #EDAE49;
+    --secundary-color: #F9DF74;
+    --tertiary-color: #F9EDCC;
+  }

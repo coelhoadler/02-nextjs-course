@@ -36,7 +36,7 @@ export const getStaticProps = (async (context) => {
 });
 
 export default function Random(props) {
-  console.log(props)
+  console.log('---> Minhas props: ', props)
   // const router = useRouter();
 
   return (

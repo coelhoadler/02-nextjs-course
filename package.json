@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "commit": "git add . && cz"
+    "commit": "git add . && cz",
+    "start:static": "npx http-server dist -c-1"
   },
   "keywords": [],
   "author": "",

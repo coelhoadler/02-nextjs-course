@@ -4,8 +4,8 @@ export default function Page() {
     return (
       <>
         <header className="header">
-          <h1 className="title">Eu, Mari e o Tom 🐶</h1>
           <div className="avatar"></div>
+          <h1 className="title">Eu, Mari e o Tom 🐶</h1>
         </header>
 
         <section className="about-me">
